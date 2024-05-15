@@ -457,9 +457,9 @@ elements.void_drill_LEFT = {
 		void_drill_function(pixel,pixel.x-1,pixel.y);
 	},
 	category: "Drills",
-	breakInto: ["metal_scrap", "void", "iron", "tin"],
+	breakInto: ["metal_scrap", "void", "iron", "tin", "wet_sand"],
 	tempHigh: 10000,
-	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin"],
+	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin", "wet_sand"],
 	density: 10000,
 	hardness: 1,
 	conduct: 1,
@@ -472,9 +472,9 @@ elements.void_drill_RIGHT = {
 		void_drill_function(pixel,pixel.x+1,pixel.y);
 	},
 	category: "Drills",
-	breakInto: ["metal_scrap", "void", "iron", "tin"],
+	breakInto: ["metal_scrap", "void", "iron", "tin", "wet_sand"],
 	tempHigh: 10000,
-	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin"],
+	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin", "wet_sand"],
 	density: 10000,
 	hardness: 1,
 	conduct: 1,
@@ -487,9 +487,9 @@ elements.void_drill_UP = {
 		void_drill_function(pixel,pixel.x,pixel.y-1);
 	},
 	category: "Drills",
-	breakInto: ["metal_scrap", "void", "iron", "tin"],
+	breakInto: ["metal_scrap", "void", "iron", "tin", "wet_sand"],
 	tempHigh: 10000,
-	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin"],
+	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin", "wet_sand"],
 	density: 10000,
 	hardness: 1,
 	conduct: 1,
@@ -502,9 +502,9 @@ elements.void_drill_DOWN = {
 		void_drill_function(pixel,pixel.x,pixel.y+1);
 	},
 	category: "Drills",
-	breakInto: ["metal_scrap", "void", "iron", "tin"],
+	breakInto: ["metal_scrap", "void", "iron", "tin", "wet_sand"],
 	tempHigh: 10000,
-	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin"],
+	stateHigh: ["molten_aluminum", "void", "molten_iron", "molten_tin", "wet_sand"],
 	density: 10000,
 	hardness: 1,
 	conduct: 1,
@@ -556,7 +556,7 @@ elements.void_drill_missile_LEFT = {
 	hardness: 1,
 	conduct: 1,
 	state: "solid",
-	maxSize: 1,
+	maxSize: 4,
 }
 
 elements.void_drill_missile_RIGHT = {
@@ -573,7 +573,7 @@ elements.void_drill_missile_RIGHT = {
 	hardness: 1,
 	conduct: 1,
 	state: "solid",
-	maxSize: 1,
+	maxSize: 4,
 }
 
 elements.void_drill_missile_UP = {
@@ -590,7 +590,7 @@ elements.void_drill_missile_UP = {
 	hardness: 1,
 	conduct: 1,
 	state: "solid",
-	maxSize: 1,
+	maxSize: 4,
 }
 
 elements.void_drill_missile_DOWN = {
@@ -607,5 +607,5 @@ elements.void_drill_missile_DOWN = {
 	hardness: 1,
 	conduct: 1,
 	state: "solid",
-	maxSize: 1,
+	maxSize: 4,
 }
